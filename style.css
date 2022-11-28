@@ -37,12 +37,53 @@
     background: blue;
     color: white;
     font-size: 16px;
-    font-weight: 900;
+    font-weight: bold;
     text-decoration: none;
     margin-top: 10px;
     align-content: flex-start;
     height: 40px;
     width: 120px;
+}
+
+.infotitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 50px 200px 50px 100px;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+}
+
+.randomitems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    padding: 50px 200px 50px 200px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+    width: 200px;
+    height: 250px;
+    border: 5px solid #3882F6;
+    border-radius: 12px;
 }
 
 .header {
