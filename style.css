@@ -86,6 +86,26 @@
     border-radius: 12px;
 }
 
+.quote {
+    display: flex;
+    height: 400px;
+    background: #E5E7EB;
+    font-size: 36px;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+.quotetext {
+    padding: 50px 400px 50px 400px;
+}
+
+.quoteauthor {
+    display: flex;
+    justify-content: end;
+    padding-right: 400px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
